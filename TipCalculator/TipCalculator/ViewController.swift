@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var totalBy2: UILabel!
     
+    @IBOutlet weak var totalby3: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billText: UITextField!
@@ -36,6 +38,10 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "$%.2f", tip)
         
         totalLabel.text = String(format: "$%.2f", total)
+        
+        totalBy2.text = String(format: "$%.2f", total/2)
+        
+        totalby3.text = String(format: "$%.2f", total/3)
         
     }
 }
