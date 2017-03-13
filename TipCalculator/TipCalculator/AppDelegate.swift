@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TipCalculator
 //
-//  Created by Poornima Naik on 3/12/17.
+//  Created by Poornima Naik on 3/13/17.
 //  Copyright © 2017 Poornima Naik. All rights reserved.
 //
 
